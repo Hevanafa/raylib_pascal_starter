@@ -17,13 +17,12 @@
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="11"/>
-        <CursorPos X="68" Y="24"/>
+        <CursorPos X="3" Y="13"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="3">
+    <JumpHistory HistoryIndex="5">
       <Position>
         <Filename Value="main.pas"/>
         <Caret Line="23" Column="6"/>
@@ -39,6 +38,14 @@
       <Position>
         <Filename Value="main.pas"/>
         <Caret Line="3"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="16" Column="36"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="14" Column="33"/>
       </Position>
     </JumpHistory>
     <RunParams>

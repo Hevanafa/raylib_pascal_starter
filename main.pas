@@ -1,6 +1,5 @@
 unit main;
 
-// Note: copy the raylib.dll file from the 'ray4laz/libs/x86_64-windows' folder to your project folder.
 {$mode Delphi}
 
 interface
@@ -18,8 +17,8 @@ type
   TProgram = class
     private
       const
-        screenWidth = 800;
-        screenHeight = 450;
+        screenWidth = 640;
+        screenHeight = 480;
 
         CORNFLOWERBLUE: TColorB = (r: 100; g: 149; b: 237; a: 255);
 
@@ -36,7 +35,7 @@ implementation
 
 procedure TProgram.init;
 begin
-  InitWindow(screenWidth, screenHeight, 'raylib + Pascal');
+  InitWindow(screenWidth, screenHeight, 'Raylib + Pascal Example');
   SetTargetFPS(60);
 end;
 
@@ -58,11 +57,10 @@ begin
   init;
 
   // Main game loop
-  while not WindowShouldClose() do
-    begin
-      update;
-      draw;
-    end;
+  while not WindowShouldClose() do begin
+    update;
+    draw;
+  end;
 
   // De-Initialization
   // Close window and OpenGL context
